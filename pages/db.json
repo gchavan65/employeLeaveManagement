@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "username": "qefewfewfwefw",
+      "address": "pachora",
+      "Leave_date_from": "2022-09-28",
+      "Leave_date_to": "2022-10-01",
+      "Balance_leave": 15,
+      "status1": 0,
+      "status2": 0,
+      "status3": 0,
+      "Available_leave": 15,
+      "Leave_requested": 3,
+      "id": 1
+    },
+    {
+      "username": "qefewfewfwefw",
+      "address": "pachora",
+      "Leave_date_from": "2022-09-28",
+      "Leave_date_to": "2022-10-01",
+      "Balance_leave": 15,
+      "status1": 0,
+      "status2": 0,
+      "status3": 0,
+      "Available_leave": 15,
+      "Leave_requested": 3,
+      "id": 2
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net"
+    }
+  ]
+}
