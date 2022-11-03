@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux"
 import { userSate } from '../redux/CartSlice'
 import axios from 'axios'
 import {useRouter} from 'next/router'
+
 const Sceen1 = () => {
     const [Leave_requested ,setLeave_requested] = useState(0)
     const [count ,setCount] = useState(40)
@@ -112,9 +113,9 @@ const formonSubmit = (event) =>{
 </div>
     </div>
     <div className={Styles.btncontainer}>
-    <Button variant="contained" color="success">
+    <button variant="contained" color="success">
   Success
-</Button>
+</button>
     </div>
     </form>
     </div>

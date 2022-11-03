@@ -554,8 +554,9 @@ function Row(props) {
 
                         }
                       }
-                      const { handleAprrove1, handleReject1, handleAprrove2, handleReject2, handleAprrove3, handleReject3 } = props;
-                      const [open, setOpen] = React.useState(false);
+                      const { handleAprrove1, 
+                        handleReject1, handleAprrove2, handleReject2, handleAprrove3, handleReject3 } = props;
+                      // const [open, setOpen] = useState(false);
                       console.log(row, "rows")
                       let Fun11 = (data) => {
                         let data1 = data.id
